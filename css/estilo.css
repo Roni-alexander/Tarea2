@@ -1,0 +1,53 @@
+
+body{
+   background-color: bisque;
+}
+*{
+    
+    font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    
+}
+
+.noVisible{
+    display: none;
+}
+.principal{
+    width: 80%;
+    margin: 0 auto;
+}
+.hijo{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+select{
+    background-color:aqua;
+    width: 80%;
+    height: 35px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+.botones{
+    width: 80%;
+    height: 35px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    background-color: rgba(6, 173 ,6, 0.616);
+}
+.botones:hover{
+    background:rgba(132, 139, 132, 0.616);
+    transition: all 0.3s ease-in-out;
+}
+.campos{
+    width: 80%;
+    height: 35px;
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+#ti{
+    color: blue;
+    position: relative;
+    right: 0;
+    left: 600px;
+}

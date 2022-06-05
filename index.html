@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculadora</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <h1 id="ti">Calculator</h1>
+    
+
+    <div class="principal">
+        <div class="hijo">
+            <select name="calcular" id="operacion">
+                <option selected>Operacion</option>
+                <option>Sumar</option>
+                <option>Restar</option>
+                <option>Multiplicar</option>
+                <option>Dividir</option>
+            </select>
+            <input class="campos" type="text" placeholder="Escribir tu primer numero" id="num1">
+            <input class="campos" type="text" placeholder="Escribir tu segundo numero" id="num2">
+            <input type="text" class="noVisible" name="calcular" id="resp">
+            <input class="botones" type="button" onclick="calcular()" value="Calcular">
+            <input class="botones" style="background: rgba(255, 0, 0.664);" type="button" onclick="confirETodo()"
+            value="Eliminar Historial">
+       </div>
+     <table class="table">
+           <thead>
+             <tr>
+                 <th scope="col">Historial</th>
+                 
+             </tr>
+            </thead>
+                <tbody id="calculo">
+
+                </tbody>
+     <textarea name="" id="cal" class="noVisible" cols="30" rows="10">
+         <tr>
+             
+             <td>{Resultado}</td>
+         </tr>
+     </textarea>
+
+       </table>
+    </div>
+    <script src="calculadora.js"></script>
+</body>
+</html>
